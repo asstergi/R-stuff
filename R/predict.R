@@ -11,7 +11,7 @@ pred <- function(url) {
   out <- tryCatch(
     {
       #predict(model$estimate, newdata = url)
-      "haha"
+      class(model$estimate)[1]
     },
     error=function(cond) {
       NA
