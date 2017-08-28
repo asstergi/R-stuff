@@ -1,0 +1,10 @@
+Package: prefetchUrl
+Type: Package
+Title: Predicts the next URL
+Version: 0.1.0
+Author: Asterios Stergioudis
+Maintainer: Asterios Stergioudis
+Description: Predicts the next URL
+License: GPL-2
+LazyData: TRUE
+Imports: markovchain
