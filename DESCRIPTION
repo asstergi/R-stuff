@@ -3,8 +3,9 @@ Type: Package
 Title: Predicts the next URL
 Version: 0.1.0
 Author: Asterios Stergioudis
-Maintainer: Asterios Stergioudis
+Maintainer: Asterios Stergioudis<a.stergioudis@gmail.com>
 Description: Predicts the next URL
 License: GPL-2
 LazyData: TRUE
 Imports: markovchain
+RoxygenNote: 6.0.1
