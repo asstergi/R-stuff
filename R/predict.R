@@ -7,11 +7,11 @@
 #' @examples
 #' pred()
 pred <- function(url) {
-  print (url)
+  #print (url)
   out <- tryCatch(
     {
-      predict(model$estimate, newdata = url)
-
+      #predict(model$estimate, newdata = url)
+      "haha"
     },
     error=function(cond) {
       NA
