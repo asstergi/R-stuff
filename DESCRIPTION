@@ -8,4 +8,4 @@ Description: Predicts the next URL
 License: GPL-2
 LazyData: TRUE
 Imports: markovchain
-RoxygenNote: 6.0.1
+
