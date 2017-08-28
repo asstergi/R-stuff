@@ -10,8 +10,8 @@ pred <- function(url) {
   #print (url)
   out <- tryCatch(
     {
-      #predict(model$estimate, newdata = url)
-      class(model$estimate)[1]
+      markovchain::predict(model$estimate, newdata = url)
+      #class(model$estimate)[1]
     },
     error=function(cond) {
       NA
