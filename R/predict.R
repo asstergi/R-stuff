@@ -11,7 +11,7 @@ pred <- function(url) {
   out <- tryCatch(
     {
       #markovchain::predict(model$estimate, newdata = url)
-      mcu[mcu$Row.Labels == url,]$pred
+      mcu[mcu$Row.Labels == url,]$pred[1]
       #class(model$estimate)[1]
     },
     error=function(cond) {
